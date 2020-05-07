@@ -1,9 +1,10 @@
 const React = require('react');
-import './App.css';
+const Default = require('./Default');
 
 class New extends React.Component {
     render() {
       return (
+        <Default>
           <div>
               <h1>New Player page</h1>
               <form action="/players" method="POST">
@@ -14,7 +15,9 @@ class New extends React.Component {
                   Img: <input type="text" name="imageee"/><br/>
                   <input type="submit" name="" value="Create Player"/>
                </form>
-          </div>);
+          </div>
+        </Default>  
+          );
     }
   }
   

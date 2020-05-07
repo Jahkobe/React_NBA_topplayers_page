@@ -1,0 +1,32 @@
+*{
+    background-color: blue;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} 
+
+.navitem{
+    list-style-type: none;
+    margin-right: 5rem;
+}
+
+.carddimensions{
+    width: 18rem;
+}
+
+.cards{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.containerr{
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.cardlist{
+    list-style: none;
+}

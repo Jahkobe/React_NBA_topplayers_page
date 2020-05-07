@@ -4,10 +4,6 @@ const Player = require('../models/players.js');
 
 // add routes
 // Index
-router.get('/' , (req, res) => {
-    res.send('Hello World!');
-  });
- 
 
 router.get('/', (req, res) => {
     // Use Fruits model to get all Fruits

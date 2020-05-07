@@ -1,4 +1,5 @@
 const React = require('react');
+const Default = require('./Default');
 
 class Show extends React.Component {
     render() {
@@ -8,11 +9,13 @@ class Show extends React.Component {
         // destructuring
         const { name, team, championships, ppg, imageee } = this.props.player;
         return (
-            <div>
-                <h1>Players Show Page</h1>
-                <p><img src={imageee} alt="" style={{width:200, height: 200}}/></p><br/>
-                <p>The {name} is {team} </p> <br/>
-            </div>
+            <Default>
+                <div>
+                    <h1>Players Show Page</h1>
+                    <p><img src={imageee} alt="" style={{width:200, height: 200}}/></p><br/>
+                    <p>The {name} is {team} </p> <br/>
+                </div>
+            </Default>
         )
     }
 }
