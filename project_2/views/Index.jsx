@@ -8,7 +8,7 @@ class Index extends React.Component {
         const { players } = this.props;
         return (
             <Default>
-            <div class="containerr" style={{backgroundColor: "red"}}>
+            <div class="containerr">
                 <nav className="">
                     <ul class="">
                         <li class="navitem">
@@ -31,7 +31,7 @@ class Index extends React.Component {
                         players.map((player, i) => {
                             return (
                                 <div class="card carddimensions">
-                                        <li class="cardlist" style={{color: "black"}}>
+                                        <li class="cardlist">
                                             
                                     <a href={`/players/${player._id}`}>{player.name}</a> <br/>
                                     <img  class="card-img-top" src={player.imageee} alt="" style={{width:100, height:100}}/> <br/>
