@@ -1,13 +1,13 @@
 const React = require('react');
 const Default = require('./Default');
 
-class New extends React.Component {
+class Newnew extends React.Component {
     render() {
       return (
         <Default>
           <div>
               <h1>New Player page</h1>
-              <form action="/players" method="POST">
+              <form action="/CreateOwnList" method="POST">
                   firstValue: <input type="text" name="name" /><br/>
                   secondValue:<input type="text" name="team" /><br/>
                   thirdValue:<input type="text" name="championships"/><br/>
@@ -21,4 +21,4 @@ class New extends React.Component {
     }
   }
   
-  module.exports = New;
+  module.exports = Newnew;
