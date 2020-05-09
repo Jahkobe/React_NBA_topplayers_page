@@ -7,7 +7,7 @@ class Trivia extends React.Component {
       return (
         <Default>
             <div class="containerr">
-            <nav className="">
+                                <nav className="">
                                     <ul class="navbarheader">
                                         <li class="navitem">
                                             <a href="/players">Home</a>
@@ -16,10 +16,10 @@ class Trivia extends React.Component {
                                             <a href="/players/trivia">Trivia</a>
                                         </li>
                                         <li class="navitem">
-                                            <a href="">Contact</a>
+                                            <a href="/players/Newnew">Make Your Own List</a>
                                         </li>
                                     </ul>
-            </nav>
+                                </nav>
             </div>
                                       
                                     

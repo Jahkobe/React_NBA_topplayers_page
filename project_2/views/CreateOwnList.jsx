@@ -6,16 +6,16 @@ const Template2 = require('./Template2');
 class CreateOwnList extends React.Component {
     
     render() {
-        const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+        const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
         const { players } = this.props;
 
-        players.forEach((item)=>{
-            if(array.length > 0){
-                array.pop();
-            }
-        })
+        // players.forEach((item)=>{
+        //     if(array.length > 0){
+        //         array.pop();
+        //     }
+        // })
 
       return (
         <Default>

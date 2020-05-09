@@ -7,15 +7,20 @@
     max-width: 90%;
 }
 
+.indexheader{
+    text-align: center;
+}
+
 .navbarheader{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-left: 0;
 } 
 
 .navitem{
     list-style-type: none;
-    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .carddimensions{
@@ -23,6 +28,7 @@
     border: 1px solid grey;
     width: 18rem;
     height: 25rem;
+    margin: 1rem 0;
 }
 
 
@@ -48,6 +54,7 @@
 .playersdescription{
     margin-left: 1rem;
     text-align: left;
+    font-size: 1.1rem;
 }
 
 .playersdescriptiondiv{
@@ -56,6 +63,7 @@
 
 .deletebuttondiv{
     text-align: center;
+    margin-top: .5rem;
 }
 
 .editbuttondiv{
@@ -75,4 +83,26 @@
     flex-wrap: wrap;
     justify-content: space-between;
    
+}
+
+.showpicturetag{
+    width: 54rem;
+    height:40rem;
+}
+
+.showImg{
+    text-align: center;
+}
+
+.showpagedescription{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.showpageheader{
+    text-align: center;
+}
+
+input{
+    border-radius: 0.25rem;
 }

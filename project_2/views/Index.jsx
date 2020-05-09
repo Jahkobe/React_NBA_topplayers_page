@@ -30,14 +30,12 @@ class Index extends React.Component {
                                             <a href="/players/trivia">Trivia</a>
                                         </li>
                                         <li class="navitem">
-                                            <a href="">Contact</a>
+                                            <a href="/players/Newnew">Make Your Own List</a>
                                         </li>
                                     </ul>
                                 </nav>
-                            <h1>Top 10 Players Page</h1>
-                                <nav>
-                                    <a href="/players/CreateOwnList">Make Your Own List</a>
-                                </nav>
+                            <h1 class="indexheader">Top 10 Players Page</h1>
+                               
 
 
                                
@@ -49,18 +47,22 @@ class Index extends React.Component {
                                             players.map((player, i) => {
                                                 console.log(player);
                                                 return (
+                                                   
                                                     <div class="carddimensions">
                                                             <li class="cardlist">
                                                                 <div class="playersname" >    
                                                                     <a href={`/players/${player._id}`}>{player.firstValue}</a> <br/>
                                                                 </div>
                                                                 <div class="cardpicturediv"> 
-                                                                    <img class="cardpicture" src={player.fifthValue} alt=""/> <br/>
+                                                                        <a href={`/players/${player._id}`}>
+                                                                        <img class="cardpicture" src={player.fifthValue} alt=""/> <br/>
+                                                                        </a>
+                                                                    
                                                                 </div>
                                                                 <div class="playersdescriptiondiv"> 
                                                                     <p class="playersdescription"><br/>
-                                                                                                Team: {player.secondValue} <br/>
-                                                                                                PPG: {player.thirdValue} <br/>
+                                                                                                Team: {player.secondValue} <br/><br/>
+                                                                                                PPG: {player.thirdValue} <br/><br/>
                                                                                                 Championships: {player.fourthValue}
                                                                     </p> <br/>
                                                                 </div>            
@@ -76,6 +78,7 @@ class Index extends React.Component {
                                                                 </div>
                                                             </li>
                                                     </div>
+                                                    
                                                 )
                                             })
                                         } 

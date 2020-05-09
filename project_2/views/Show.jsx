@@ -10,10 +10,22 @@ class Show extends React.Component {
         const { firstValue, secondValue, fourthValue, thirdValue, fifthValue } = this.props.player;
         return (
             <Default>
-                <div>
-                    <h1>Players Show Page</h1>
-                    <p><img src={fifthValue} alt="" style={{width:200, height: 200}}/></p><br/>
-                    <p>The {firstValue} is {secondValue} </p> <br/>
+                <div class="containerr">
+                                    <ul class="navbarheader">
+                                        <li class="navitem">
+                                            <a href="/players">Home</a>
+                                        </li>
+                                        <li class="navitem">
+                                            <a href="/players/trivia">Trivia</a>
+                                        </li>
+                                        <li class="navitem">
+                                            <a href="/players/Newnew">Make Your Own List</a>
+                                        </li>
+                                    </ul>
+                                
+                    <h1 class="showpageheader">Players Show Page</h1>
+                    <p class="showImg"><img  class="showpicturetag" src={fifthValue} alt=""/></p><br/>
+        <p class="showpagedescription">{firstValue} has played for {secondValue} and has averaged {thirdValue} throughout his playing career. He has also won {fourthValue} during his tenure with the {secondValue}.</p> <br/>
                 </div>
             </Default>
         )
