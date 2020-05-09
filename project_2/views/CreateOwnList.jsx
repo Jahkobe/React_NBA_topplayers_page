@@ -1,7 +1,7 @@
 const React = require('react');
 const Default = require('./Default');
 
-class Trivia extends React.Component {
+class CreateOwnList extends React.Component {
     
     render() {
       return (
@@ -28,4 +28,4 @@ class Trivia extends React.Component {
     }
   }
   
-  module.exports = Trivia;
+  module.exports = CreateOwnList;
