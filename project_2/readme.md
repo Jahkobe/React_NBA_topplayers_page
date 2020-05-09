@@ -46,6 +46,9 @@ Mongoose
 MongoDB
 JSX
 
+Set up:
+First I created the 7 basic routes and kind of just went from there.
+
 Features of the app:
 As you can see from the home page the app allows you to have your top 10 NBA players. There are 10 cards and you can click on a card which will take you to the new page. This will allow you to type into the input fields and add a new basketball player. There is 5 different categories including PPG, name, Team, an Image, and how many championships they have won. 
 
@@ -59,7 +62,14 @@ Therein lies a lot of my biggest challenges. At first when the players were adde
 
 Another challenge for me was to get the pictures to post using the url. I think I was having a hard time at the beggining using the different input types. I know that a lot of it for me was the fact that there is an image input type and i got hung up on that for a long time. Eventually I just did a text input field and then posted that value into the Source for an image tag back on the main index/home page.
 
+Also I spent quite a bit of time trying to do this project without a Default.jsx page and actually spent a little bit more time then I probably should have trying to connect the css page to the actual site.
 
- I was trying forever to get the player to fill the space that I was clicking on and not having the player go to the front of the list. That never really got solved but another challenge
+Thing I learned:
+I think I just kind of connected the dots of all the routes finally inside my head and how it all works. It was a lot of trial and error and the labs/ hw kind of prepared me for it to some extent but just spending a lot of hours on it and just trying things over and over you eventually figure out what doesn't work which helps narrow down on what does work.
+
+I also think that actually connecting the css and kind of starting to understand the connection of javascript and react but still kind of connecting the dots there.
+
+Things I would do next time:
+ I was trying forever to get the player to fill the space that I was clicking on and not having the player go to the front of the list. That never really got solved sadly so will definitely be something I will work on the future.
 
 

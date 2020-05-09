@@ -145,3 +145,19 @@ body{
 input{
     border-radius: 0.25rem;
 }
+
+.textfield{
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.newformpage{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.newplayerheader{
+    font-size: 4rem;
+    font-weight: 900;
+}

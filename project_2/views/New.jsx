@@ -19,13 +19,13 @@ class New extends React.Component {
                                         </li>
                                     </ul>
 
-                                    <h1>New Player page</h1>
-                                    <form action="/players" method="POST">
-                                        Name: <input type="text" name="firstValue" /><br/>
-                                        Team: <input type="text" name="secondValue" /><br/>
-                                        Championships: <input type="text" name="fourthValue"/><br/>
-                                        PPG: <input type="text" name="thirdValue"/><br/>
-                                        Img: <input type="text" name="fifthValue"/><br/>
+                                    <h1 class="newplayerheader">Add a new player to your list</h1>
+                                    <form class="newformpage" action="/players" method="POST">
+                                        Name: <br/><input class=" textfield" type="text" name="firstValue" /><br/>
+                                        Team: <br/><input class="textfield" type="text" name="secondValue" /><br/>
+                                        Championships: <br/><input class="textfield" type="text" name="fourthValue"/><br/>
+                                        PPG: <br/><input class="textfield" type="text" name="thirdValue"/><br/>
+                                        Img: <br/><input class="textfield" type="text" name="fifthValue"/><br/>
                                         <input type="submit" name="" value="Create Player"/>
                                     </form>
           </div>
