@@ -1,6 +1,6 @@
 const React = require('react');
 const Default = require('./Default');
-const Template = require('./Template');
+const Template2 = require('./Template2');
 
 
 class CreateOwnList extends React.Component {
@@ -28,7 +28,7 @@ class CreateOwnList extends React.Component {
                                     {
                                         array.map((value, index) => {
                                             console.log(value);
-                                            return <Template key={index}>{value}</Template>
+                                            return <Template2 key={index}>{value}</Template2>
                                                                     })
                                     } 
                                     </div>       
