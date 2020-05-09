@@ -5,6 +5,9 @@ const Template = require('./Template');
 
 class Index extends React.Component {
 
+    
+      
+
     render() {
 
         const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -15,6 +18,20 @@ class Index extends React.Component {
 
         playerArray.push(players);
         console.log("players", playerArray);
+
+        const sortByChampionships = () => {
+            playerArray[0].sort((a, b) => {
+                if(a.fourthValue < b.fourthValue) {
+                    return 1;
+                }else{
+                    return -1;
+                }
+                
+            });
+            
+            console.log("sorted array", playerArray);
+            }
+        
 
         players.forEach((item)=>{
             if(array.length > 0){
@@ -42,7 +59,11 @@ class Index extends React.Component {
                             <h1 class="indexheader">Top 10 Players Page</h1>
                                
 
-
+                            {/* <button onClick={
+                                        sortByChampionships()
+                                            }>
+                                                Sort By ChampionShips!
+                            </button> */}
                                
                         <div class="directionOfCards">
                                
