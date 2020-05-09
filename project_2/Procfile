@@ -1,1 +1,1 @@
-web: node /views/Index.jsx
+web: node Index.jsx
