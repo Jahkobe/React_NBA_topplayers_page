@@ -1,4 +1,5 @@
 // dependencies
+const PORT = process.env.PORT || 3000;
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -26,6 +27,6 @@ app.use('/players', playersController);
 
 
 // listen
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('listening on: ' + 3000);
 });
