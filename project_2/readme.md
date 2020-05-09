@@ -1,38 +1,5 @@
-// nba favorite players list
-// ill start with a list of some nba players/ a few from each team
-// each player has stats/rebounds/points/championships etc
 
-// you will be able to add your own favorite players
-// as well as add them to your favorite players list
-
-// Index
-// this will display my list along with an edit/ delete buttons
-// as well as create a new list
-
-// New
-// The new is going to add a new player to the database
-// it will have a form where you can add stats and a picture as well
-
-// Create
-// this will add a player to the database as well as display that
-// player in the list of available players you can choose from
-
-// Edit
-// You will be able to edit your list of players / for
-// example if someone started averaging more points or won a
-// championship then that stat would need to be changed as well
-
-// Delete
-// you can delete a player from your list
-
-// Show
-// this will allow you to see the players stats more in depth/
-// maybe add a few categories/ and maybe even a little description
-// of playing career
-
-
-
-
+Start:
 So for my project I went with a top 10 best basketball players of all time list. My thinking behind this was that I wanted to be able to make a top ten list then use variables inside the schema and new routes so that you could actually change all the values and make your own top ten list for whatever you wanted.It didn't end up working like that but I spent a lot of time trying to make that idea happening. So I think during the process I was definitely planning on being a little more ambititous in my head then I think it turned out looking in the end. But hopfully this isn't the end and I can build upon the functionality of the app once we dive deeper into react and other topics.
 
 Technologies used:
@@ -63,6 +30,8 @@ Therein lies a lot of my biggest challenges. At first when the players were adde
 Another challenge for me was to get the pictures to post using the url. I think I was having a hard time at the beggining using the different input types. I know that a lot of it for me was the fact that there is an image input type and i got hung up on that for a long time. Eventually I just did a text input field and then posted that value into the Source for an image tag back on the main index/home page.
 
 Also I spent quite a bit of time trying to do this project without a Default.jsx page and actually spent a little bit more time then I probably should have trying to connect the css page to the actual site.
+
+Lastly I wanted to figure out how to do multiple post routes and just coudn't ever really get it, so that was a bummer.
 
 Thing I learned:
 I think I just kind of connected the dots of all the routes finally inside my head and how it all works. It was a lot of trial and error and the labs/ hw kind of prepared me for it to some extent but just spending a lot of hours on it and just trying things over and over you eventually figure out what doesn't work which helps narrow down on what does work.
