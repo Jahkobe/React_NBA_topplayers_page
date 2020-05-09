@@ -7,13 +7,13 @@ class Show extends React.Component {
         // const color = this.props.fruit.color;
         // const readyToEat = this.props.fruit.readyToEat;
         // destructuring
-        const { name, team, championships, ppg, imageee } = this.props.player;
+        const { firstValue, secondValue, fourthValue, thirdValue, fifthValue } = this.props.player;
         return (
             <Default>
                 <div>
                     <h1>Players Show Page</h1>
-                    <p><img src={imageee} alt="" style={{width:200, height: 200}}/></p><br/>
-                    <p>The {name} is {team} </p> <br/>
+                    <p><img src={fifthValue} alt="" style={{width:200, height: 200}}/></p><br/>
+                    <p>The {firstValue} is {secondValue} </p> <br/>
                 </div>
             </Default>
         )

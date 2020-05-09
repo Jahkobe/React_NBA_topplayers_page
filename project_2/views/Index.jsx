@@ -52,16 +52,16 @@ class Index extends React.Component {
                                                     <div class="carddimensions">
                                                             <li class="cardlist">
                                                                 <div class="playersname" >    
-                                                                    <a href={`/players/${player._id}`}>{player.name}</a> <br/>
+                                                                    <a href={`/players/${player._id}`}>{player.firstValue}</a> <br/>
                                                                 </div>
                                                                 <div class="cardpicturediv"> 
-                                                                    <img class="cardpicture" src={player.imageee} alt=""/> <br/>
+                                                                    <img class="cardpicture" src={player.fifthValue} alt=""/> <br/>
                                                                 </div>
                                                                 <div class="playersdescriptiondiv"> 
                                                                     <p class="playersdescription"><br/>
-                                                                                                Team: {player.team} <br/>
-                                                                                                PPG: {player.ppg} <br/>
-                                                                                                Championships: {player.championships}
+                                                                                                Team: {player.secondValue} <br/>
+                                                                                                PPG: {player.thirdValue} <br/>
+                                                                                                Championships: {player.fourthValue}
                                                                     </p> <br/>
                                                                 </div>            
                                                                 <div class="deletebuttondiv">
