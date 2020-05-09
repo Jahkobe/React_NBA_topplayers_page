@@ -36,7 +36,7 @@ class Index extends React.Component {
                                 </nav>
                             <h1>Top 10 Players Page</h1>
                                 <nav>
-                                    <a href="/players/Newnew">Make Your Own List</a>
+                                    <a href="/players/CreateOwnList">Make Your Own List</a>
                                 </nav>
 
 
@@ -79,7 +79,7 @@ class Index extends React.Component {
                                                 )
                                             })
                                         } 
-
+                                         
                                     {
                                         array.map((value, index) => {
                                             console.log(value);

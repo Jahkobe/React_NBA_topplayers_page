@@ -2,6 +2,7 @@ const React = require('react');
 const Default = require('./Default');
 
 class New extends React.Component {
+  
     render() {
       return (
         <Default>
