@@ -4,10 +4,9 @@ const Default = require('./Default');
 class Template extends React.Component {
     
     render() {
-        
       return (
         <Default>
-            <ul class="cards">
+            
                                         {
                                                 <div class="carddimensions">
                                                         <li class="cardlist">
@@ -39,7 +38,7 @@ class Template extends React.Component {
                                                         </li>
                                                 </div>
                                         }
-                                    </ul>
+                                    
         </Default>  
           );
     }

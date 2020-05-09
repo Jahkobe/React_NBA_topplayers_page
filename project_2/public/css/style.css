@@ -2,6 +2,11 @@
     /* border:1px solid blue; */
 }
 
+.containerr{
+    margin: 0 auto;
+    max-width: 90%;
+}
+
 .navbarheader{
     display: flex;
     flex-direction: row;
@@ -17,12 +22,10 @@
     border-radius: 0.5rem;
     border: 1px solid grey;
     width: 18rem;
+    height: 25rem;
 }
 
-.cards{
-    display:flex;
-    justify-content: space-around;
-}
+
 
 .cardpicture{
     width: 12rem;
@@ -31,11 +34,6 @@
 
 .cardpicturediv{
   text-align: center;
-}
-
-.containerr{
-    margin: 0 auto;
-    max-width: 90%;
 }
 
 .cardlist{
@@ -71,8 +69,10 @@
     flex-wrap: wrap;
 }
 
-.templates{
+.directionOfCards{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+   
 }
