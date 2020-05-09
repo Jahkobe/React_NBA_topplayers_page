@@ -6,15 +6,27 @@ class Edit extends React.Component {
         const { _id, firstValue, secondValue, thirdValue, fourthValue, fifthValue} = this.props.player;
         return (
             <Default>
-                    <div>
-                        <h1>Edit Page</h1>
+                    <div class="containerr">
+                                    <ul class="navbarheader">
+                                        <li class="navitem">
+                                            <a href="/players">Home</a>
+                                        </li>
+                                        <li class="navitem">
+                                            <a href="/players/trivia">Trivia</a>
+                                        </li>
+                                        <li class="navitem">
+                                            <a href="/players/Newnew">Make Your Own List</a>
+                                        </li>
+                                    </ul>
+
+                        <h1 class="editplayerheader">Edit Player Page</h1>
                                 {/* url - /fruits/id_of_fruit? parameter to indicate the request */}
-                                    <form action={`/players/${_id}?_method=PUT`} method="POST">
-                                            Name: <input type="text" name="firstValue" defaultValue={firstValue}/> <br/>
-                                            Team: <input type="text" name="secondValue" defaultValue={secondValue}/> <br/>
-                                            Championships: <input type="text" name="fourthValue" defaultValue={fourthValue}/> <br/>
-                                            PPG: <input type="text" name="thirdValue" defaultValue={thirdValue}/><br/>
-                                            Img: <input type="text" name="fifthValue" defaultValue={fifthValue}/><br/>
+                                    <form class="editformpage" action={`/players/${_id}?_method=PUT`} method="POST">
+                                            Name: <br/> <input class="textfield" type="text" name="firstValue" defaultValue={firstValue}/> <br/>
+                                            Team: <br/><input class="textfield" type="text" name="secondValue" defaultValue={secondValue}/> <br/>
+                                            Championships: <br/><input class="textfield" type="text" name="fourthValue" defaultValue={fourthValue}/> <br/>
+                                            PPG: <br/><input class="textfield" type="text" name="thirdValue" defaultValue={thirdValue}/><br/>
+                                            Img: <br/><input class="textfield" type="text" name="fifthValue" defaultValue={fifthValue}/><br/>
                                             <input type="submit" name="" value="Submit Changes"/>
                                     </form>
                     </div>

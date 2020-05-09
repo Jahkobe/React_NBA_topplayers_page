@@ -157,7 +157,20 @@ input{
     text-align: center;
 }
 
+.editformpage{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
 .newplayerheader{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.editplayerheader{
+    text-align: center;
     font-size: 4rem;
     font-weight: 900;
 }
