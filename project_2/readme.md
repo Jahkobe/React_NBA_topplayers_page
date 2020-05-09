@@ -30,3 +30,6 @@
 // maybe add a few categories/ and maybe even a little description
 // of playing career
 
+
+
+so im trying to delete the template once i click on /players/new

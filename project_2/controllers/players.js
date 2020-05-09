@@ -1,11 +1,13 @@
 const express = require('express');
 const router = express.Router();
 const Player = require('../models/players.js');
+const PlayerTemplate = require('../models/playersTemplate.js');
 
 // add routes
 // Index
 
 router.get('/', (req, res) => {
+    
     // Use Fruits model to get all Fruits
     Player.find({}, (error, allPlayers) => {
         res.render('Index', {
@@ -25,6 +27,7 @@ router.post('/', (req, res) => {
     // Use Model to create Fruit Document
     Player.create(req.body, (error, createdPlayer) => {
         // Once created - respond to client
+        console.log(createdPlayer);
         res.redirect('/players');
     });
 });

@@ -1,8 +1,8 @@
 *{
-    border:1px solid blue;
+    /* border:1px solid blue; */
 }
 
-ul{
+.navbarheader{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -14,12 +14,23 @@ ul{
 }
 
 .carddimensions{
+    border-radius: 0.5rem;
+    border: 1px solid grey;
     width: 18rem;
 }
 
 .cards{
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.cardpicture{
+    width: 12rem;
+    height:10rem;
+}
+
+.cardpicturediv{
+  text-align: center;
 }
 
 .containerr{
@@ -28,5 +39,40 @@ ul{
 }
 
 .cardlist{
+    
     list-style: none;
+}
+
+.playersname{
+    text-align: center;
+}
+
+.playersdescription{
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.playersdescriptiondiv{
+    height:8rem;
+}
+
+.deletebuttondiv{
+    text-align: center;
+}
+
+.editbuttondiv{
+    margin-right: 1rem;
+    text-align: right;
+}
+
+.cardsTemplate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.templates{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

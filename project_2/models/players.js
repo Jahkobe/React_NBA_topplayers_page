@@ -10,8 +10,10 @@ const playerSchema = new Schema({
     imageee: {type: String, required: false}
 }, { timestamps: true });
 
+
+
 //  Create Model from our Schema
 const Player = mongoose.model('Player', playerSchema);
 
-// Export Fruit Model
+// Export Player Model
 module.exports = Player;
