@@ -23,9 +23,9 @@ class Show extends React.Component {
                                         </li>
                                     </ul>
                                 
-                    <h1 class="showpageheader">Players Show Page</h1>
-                    <p class="showImg"><img  class="showpicturetag" src={fifthValue} alt=""/></p><br/>
-        <p class="showpagedescription">{firstValue} has played for {secondValue} and has averaged {thirdValue} throughout his playing career. He has also won {fourthValue} during his tenure with the {secondValue}.</p> <br/>
+                        <h1 class="showpageheader">{firstValue}</h1>
+                            <p class="showImg"><img  class="showpicturetag" src={fifthValue} alt=""/></p><br/>
+                            <p class="showpagedescription">{firstValue} played for the {secondValue} and has averaged {thirdValue} points throughout his playing career. He has also won {fourthValue} championships during his tenure with the {secondValue}.</p> <br/>
                 </div>
             </Default>
         )

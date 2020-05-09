@@ -48,10 +48,10 @@ class Index extends React.Component {
                                                 console.log(player);
                                                 return (
                                                    
-                                                    <div class="carddimensions">
+                                                    <div class="carddimensionss">
                                                             <li class="cardlist">
                                                                 <div class="playersname" >    
-                                                                    <a href={`/players/${player._id}`}>{player.firstValue}</a> <br/>
+                                                                    <a class="playernametext" href={`/players/${player._id}`}>{player.firstValue}</a> <br/>
                                                                 </div>
                                                                 <div class="cardpicturediv"> 
                                                                         <a href={`/players/${player._id}`}>
