@@ -28,12 +28,16 @@ router.get('/CreateOwnList', (req, res) => {
     // Use Players model to get all Fruits  
 
         res.render('CreateOwnList');
-        
+
 });
 
 // New
 router.get('/new', (req, res) => {
     res.render('New');
+});
+
+router.get('/newnew', (req, res) => {
+    res.render('Newnew');
 });
 
 

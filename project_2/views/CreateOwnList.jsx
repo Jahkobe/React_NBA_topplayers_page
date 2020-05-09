@@ -1,9 +1,12 @@
 const React = require('react');
 const Default = require('./Default');
+const Template = require('./Template');
+
 
 class CreateOwnList extends React.Component {
     
     render() {
+        const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
       return (
         <Default>
             <div class="containerr">
@@ -19,6 +22,16 @@ class CreateOwnList extends React.Component {
                                             <a href="">Contact</a>
                                         </li>
                                     </ul>
+                                    <div class="directionOfCards">
+
+                            
+                                    {
+                                        array.map((value, index) => {
+                                            console.log(value);
+                                            return <Template key={index}>{value}</Template>
+                                                                    })
+                                    } 
+                                    </div>       
             </nav>
             </div>
                                       
