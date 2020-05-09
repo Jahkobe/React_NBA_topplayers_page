@@ -9,7 +9,12 @@ class Index extends React.Component {
 
         const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+        const playerArray = [];
+
         const { players } = this.props;
+
+        playerArray.push(players);
+        console.log("players", playerArray);
 
         players.forEach((item)=>{
             if(array.length > 0){
@@ -41,7 +46,7 @@ class Index extends React.Component {
                                
                         <div class="directionOfCards">
                                
-
+                            
                                    
                                         {
                                             players.map((player, i) => {
